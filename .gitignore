@@ -1,0 +1,8 @@
+data/
+models/
+samples/
+extra_data/
+__pycache__/
+*.pyc
+.idea/
+venv/
