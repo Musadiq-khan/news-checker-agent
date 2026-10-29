@@ -1,0 +1,12 @@
+filename,expected_label,predicted_label,svm_score,correct,cleaned_word_count
+fake_indiatoday_biden.txt,fake,real,0.03115630707195799,False,71
+fake_satire_thebeaverton_elon.txt,fake,fake,-0.9986639016234665,True,144
+fake_satire_thepoke_protest.txt,fake,fake,-0.19526785235627764,True,101
+fake_sattire_onion.txt,fake,fake,-0.39065459915009476,True,85
+fake_viral_whatsapp1.txt,fake,fake,-0.8380279677085248,True,112
+real_bbc_cricket.txt,real,real,0.132263162311147,True,472
+real_economictimes_education.txt,real,real,0.5267032749809202,True,111
+real_hindu_budget.txt,real,real,0.6072512805186825,True,115
+real_indianexpress_politics.txt,real,real,0.08849334751138135,True,125
+real_ndtv_crime.txt,real,fake,-0.4483785538266297,False,107
+real_policywire_israel.txt,real,fake,-0.032518980283245014,False,173
